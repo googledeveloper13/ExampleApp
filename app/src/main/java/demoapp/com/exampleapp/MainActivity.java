@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                         {
                             tvInputValue3.setText("Exponential functions of " + strInputValue + " is : " + "\n\n" + value2);
 
-                            //factorial
+                            //factorial series
 
                             int number=Integer.parseInt(strInputValue);
                             String value3= String.valueOf(factorial(number));
